@@ -1,0 +1,32 @@
+<config>
+    <sections>
+        <magestack.sentry translate="label" module="magestack.sentry">
+            <label>MageStack</label>
+            <tab>general</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+
+            <groups>
+                <options translate="label">
+                    <label>Sentry Options</label>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <expanded>1</expanded>
+                    <fields>
+                        <key>
+                            <label>Application URL</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                        </key>
+                    </fields>
+                </options>
+            </groups>
+        </magestack.sentry>
+    </sections>
+</config>
+
