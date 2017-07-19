@@ -1,3 +1,5 @@
+# MageStack Sentry
+
 Catch and send Magento exceptions to Sentry instance using the PHP Raven library, whilst still preserving normal Magento exception handling.
 
 ## Installation
@@ -5,7 +7,7 @@ Catch and send Magento exceptions to Sentry instance using the PHP Raven library
  1. Download and extract the module
 
     ~~~~
-    wget -O master.zip -no-check-certificate https://github.com/sonassi/magestack-sentry/archive/master.zip
+    wget -O master.zip --no-check-certificate https://github.com/sonassi/magestack-sentry/archive/master.zip
     unzip master.zip
     rsync -vPa magestack-sentry*/app/ app/
     rsync -vPa magestack-sentry*/lib/ lib/
